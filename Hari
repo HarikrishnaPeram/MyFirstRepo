@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+
+hh----------------------------
+Test me first my profile
+---------------------
+
+
+
+
+My daughter name is nehitha
+--------------------------------public class SampleApp {
+
+    // Main entry point of the application
+    public static void main(String[] args) {
+        // Variables & Data Types
+        String name = "Alice";
+        int age = 25;
+        double score = 92.5;
+        boolean isPassed = true;
+
+        System.out.println("Student: " + name + ", Age: " + age);
+
+        // Conditional Statement
+        if (isPassed) {
+            System.out.println("Status: Passed with a score of " + score);
+        } else {
+            System.out.println("Status: Failed");
+        }
+
+        // Calling a custom method
+        int sum = addNumbers(10, 20);
+        System.out.println("Sum of 10 and 20 is: " + sum);
+
+        // Loop Example
+        System.out.print("Counting: ");
+        for (int i = 1; i <= 5; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println(); // New line
+    }
+
+    // Custom helper method
+    public static int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
